@@ -2,8 +2,8 @@ package cmd
 
 import (
 	"fmt"
-	"os"
 	"github.com/spf13/cobra"
+	"os"
 
 	"github.com/spf13/viper"
 )
@@ -13,7 +13,7 @@ var cfgFile string
 var rootCmd = &cobra.Command{
 	Use:   "switch-listing",
 	Short: "A cli tool for switch game release information",
-	Long: `A cli tool for switch game release information`,
+	Long:  `A cli tool for switch game release information`,
 }
 
 func Execute() {
